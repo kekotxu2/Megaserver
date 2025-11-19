@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.175.64.80
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1763566268971
+  login: 1763566237050
+money: '0'
+last-account-name: kekotxu
+logoutlocation:
+  world: 10a52222-8dc3-4e94-8b7d-bbadbd86d207
+  world-name: world
+  x: 290.1203504194452
+  y: 78.0
+  z: -322.29426680044133
+  yaw: -103.80001831054688
+  pitch: 2.099902629852295

@@ -1,0 +1,563 @@
+[15:29:13] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[15:29:13] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[15:29:13] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:29:14] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-core-5.3.4.jar'...
+[15:29:14] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-core-5.3.3.jar'...
+[15:29:14] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/LagFixer.jar'...
+[15:29:14] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.17-beta-01.jar'...
+[15:29:16] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/LagFixer.jar' in 2327ms.
+[15:29:16] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/multiverse-inventories-5.2.1.jar'...
+[15:29:17] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-inventories-5.2.1.jar' in 1189ms.
+[15:29:17] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/AdvancedTeleport-Bukkit-6.1.3-all.jar'...
+[15:29:18] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-core-5.3.3.jar' in 3846ms.
+[15:29:18] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/HealthBar-Reloaded.jar'...
+[15:29:18] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/HealthBar-Reloaded.jar' in 97ms.
+[15:29:18] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[15:29:18] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/multiverse-core-5.3.4.jar' in 4189ms.
+[15:29:18] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/AngelChest-13.9.4.jar'...
+[15:29:18] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AdvancedTeleport-Bukkit-6.1.3-all.jar' in 613ms.
+[15:29:18] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.17-beta-01.jar' in 4314ms.
+[15:29:19] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AngelChest-13.9.4.jar' in 1071ms.
+[15:29:20] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 2225ms.
+[15:29:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
+[15:29:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
+ - AdvancedTeleport (6.1.3), AngelChest (13.9.4), Essentials (2.21.2), HealthBar-Reloaded (2.0.5-beta), LagFixer (1.5.0.7 [build 130]), LuckPerms (5.5.17), Multiverse-Core (5.3.3), Multiverse-Core (5.3.4), Multiverse-Inventories (5.2.1), SkinsRestorer (15.8.2), ViaBackwards (5.5.1), ViaVersion (5.5.1), WorldEdit (7.3.17-beta-01+5a4f79c)
+[15:29:25] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:29:27] [ServerMain/INFO]: Loaded 1407 recipes
+[15:29:27] [ServerMain/INFO]: Loaded 1520 advancements
+[15:29:27] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:29:28] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 377.9ms
+[15:29:28] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[15:29:28] [Server thread/INFO]: Loading properties
+[15:29:28] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[15:29:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:29:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:29:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:29:29] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:29:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:29:29] [Server thread/INFO]: Default game type: SURVIVAL
+[15:29:29] [Server thread/INFO]: Generating keypair
+[15:29:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:29:29] [Server thread/INFO]: Using epoll channel type
+[15:29:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:29:29] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[15:29:29] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'Multiverse-Core' for files 'plugins/.paper-remapped/multiverse-core-5.3.3.jar' and 'plugins/.paper-remapped/multiverse-core-5.3.4.jar' in 'plugins/.paper-remapped'
+[15:29:30] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loading 3 libraries... please wait
+[15:29:30] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.pom
+[15:29:30] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-parent/73/commons-parent-73.pom
+[15:29:31] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/apache/33/apache-33.pom
+[15:29:31] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/junit/junit-bom/5.11.0/junit-bom-5.11.0.pom
+[15:29:31] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/commons-io/commons-io/2.19.0/commons-io-2.19.0.pom
+[15:29:31] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/apache/commons/commons-parent/81/commons-parent-81.pom
+[15:29:31] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/junit/junit-bom/5.11.4/junit-bom-5.11.4.pom
+[15:29:31] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/github/oshi/oshi-core/6.8.0/oshi-core-6.8.0.pom
+[15:29:31] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/github/oshi/oshi-parent/6.8.0/oshi-parent-6.8.0.pom
+[15:29:31] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.pom
+[15:29:32] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.pom
+[15:29:32] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.pom
+[15:29:32] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-parent/2.0.17/slf4j-parent-2.0.17.pom
+[15:29:32] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-bom/2.0.17/slf4j-bom-2.0.17.pom
+[15:29:32] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/commons-io/commons-io/2.19.0/commons-io-2.19.0.jar
+[15:29:33] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-0/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/com/github/oshi/oshi-core/6.8.0/oshi-core-6.8.0.jar
+[15:29:33] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-2/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar
+[15:29:33] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-3/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
+[15:29:33] [BasicRepositoryConnector-maven-central.storage-download.googleapis.com-0-1/INFO]: [SpigotLibraryLoader] Downloading https://maven-central.storage-download.googleapis.com/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar
+[15:29:33] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/Megaserver/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar
+[15:29:33] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/Megaserver/servidor_minecraft/libraries/commons-io/commons-io/2.19.0/commons-io-2.19.0.jar
+[15:29:33] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/Megaserver/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.8.0/oshi-core-6.8.0.jar
+[15:29:33] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/Megaserver/servidor_minecraft/libraries/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar
+[15:29:33] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/Megaserver/servidor_minecraft/libraries/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar
+[15:29:33] [Server thread/INFO]: [SpigotLibraryLoader] [LagFixer] Loaded library /workspaces/Megaserver/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
+[15:29:33] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.1
+[15:29:33] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.1 is now loaded. Registering protocol transformers and injecting...
+[15:29:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:29:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[15:29:35] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:29:35] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:29:35] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.3
+[15:29:35] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.17-beta-01+5a4f79c
+[15:29:36] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2b764ce2]
+[15:29:36] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[15:29:36] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.5.1
+[15:29:36] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[15:29:39] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Loading server plugin AdvancedTeleport v6.1.3
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Resolved gson @ https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloading gson...
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for gson as https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar.sha1
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for gson
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloaded gson successfully!
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Resolved jar-relocator @ https://repo1.maven.org/maven2/me/lucko/jar-relocator/1.5/jar-relocator-1.5.jar
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloading jar-relocator...
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for jar-relocator
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for jar-relocator as https://repo1.maven.org/maven2/me/lucko/jar-relocator/1.5/jar-relocator-1.5.jar.sha1
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for jar-relocator
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for jar-relocator
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloaded jar-relocator successfully!
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Resolved asm @ https://repo1.maven.org/maven2/org/ow2/asm/asm/9.1/asm-9.1.jar
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloading asm...
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for asm as https://repo1.maven.org/maven2/org/ow2/asm/asm/9.1/asm-9.1.jar.sha1
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for asm
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloaded asm successfully!
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Resolved asm-commons @ https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloading asm-commons...
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for asm-commons
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for asm-commons as https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.1/asm-commons-9.1.jar.sha1
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for asm-commons
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for asm-commons
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Downloaded asm-commons successfully!
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for gson
+[15:29:39] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for gson
+[15:29:40] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-api...
+[15:29:40] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-api
+[15:29:40] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-api as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-api/4.15.0/adventure-api-4.15.0.jar.sha1
+[15:29:40] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-api
+[15:29:40] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-api
+[15:29:40] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-api successfully!
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-key...
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-key
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-key as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-key/4.15.0/adventure-key-4.15.0.jar.sha1
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-key
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-key
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-key successfully!
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Downloading examination-api...
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-api
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for examination-api as https://repo.papermc.io/repository/maven-public/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar.sha1
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for examination-api
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-api
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Downloaded examination-api successfully!
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Downloading examination-string...
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for examination-string
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for examination-string as https://repo.papermc.io/repository/maven-public/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar.sha1
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for examination-string
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for examination-string
+[15:29:41] [Server thread/INFO]: [AdvancedTeleport] Downloaded examination-string successfully!
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-text-minimessage...
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-minimessage
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-text-minimessage as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-text-minimessage/4.15.0/adventure-text-minimessage-4.15.0.jar.sha1
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-text-minimessage
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-minimessage
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-text-minimessage successfully!
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-nbt...
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-nbt
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-nbt as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-nbt/4.15.0/adventure-nbt-4.15.0.jar.sha1
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-nbt
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-nbt
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-nbt successfully!
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-text-serializer-plain...
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-plain
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-text-serializer-plain as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-text-serializer-plain/4.15.0/adventure-text-serializer-plain-4.15.0.jar.sha1
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-text-serializer-plain
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-plain
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-text-serializer-plain successfully!
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-platform-bukkit...
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-bukkit
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-platform-bukkit as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-platform-bukkit/4.2.0/adventure-platform-bukkit-4.2.0.jar.sha1
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-platform-bukkit
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-bukkit
+[15:29:42] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-platform-bukkit successfully!
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-text-serializer-gson-legacy-impl...
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson-legacy-impl
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-text-serializer-gson-legacy-impl as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-text-serializer-gson-legacy-impl/4.12.0/adventure-text-serializer-gson-legacy-impl-4.12.0.jar.sha1
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-text-serializer-gson-legacy-impl
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson-legacy-impl
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-text-serializer-gson-legacy-impl successfully!
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-text-serializer-gson...
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-gson
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-text-serializer-gson as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-text-serializer-gson/4.15.0/adventure-text-serializer-gson-4.15.0.jar.sha1
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-text-serializer-gson
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-gson
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-text-serializer-gson successfully!
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-text-serializer-json...
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-json
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-text-serializer-json as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-text-serializer-json/4.15.0/adventure-text-serializer-json-4.15.0.jar.sha1
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-text-serializer-json
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-json
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-text-serializer-json successfully!
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloading option...
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for option
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for option as https://repo.papermc.io/repository/maven-public/net/kyori/option/1.0.0/option-1.0.0.jar.sha1
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for option
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for option
+[15:29:43] [Server thread/INFO]: [AdvancedTeleport] Downloaded option successfully!
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-platform-facet...
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-facet
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-platform-facet as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-platform-facet/4.2.0/adventure-platform-facet-4.2.0.jar.sha1
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-platform-facet
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-facet
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-platform-facet successfully!
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-platform-api...
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-api
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-platform-api as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-platform-api/4.2.0/adventure-platform-api-4.2.0.jar.sha1
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-platform-api
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-api
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-platform-api successfully!
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-platform-viaversion...
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-platform-viaversion
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-platform-viaversion as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-platform-viaversion/4.2.0/adventure-platform-viaversion-4.2.0.jar.sha1
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-platform-viaversion
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-platform-viaversion
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-platform-viaversion successfully!
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-text-serializer-bungeecord...
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-bungeecord
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-text-serializer-bungeecord as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-text-serializer-bungeecord/4.2.0/adventure-text-serializer-bungeecord-4.2.0.jar.sha1
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-text-serializer-bungeecord
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-bungeecord
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-text-serializer-bungeecord successfully!
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Downloading adventure-text-serializer-legacy...
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for adventure-text-serializer-legacy
+[15:29:44] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for adventure-text-serializer-legacy as https://repo.papermc.io/repository/maven-public/net/kyori/adventure-text-serializer-legacy/4.15.0/adventure-text-serializer-legacy-4.15.0.jar.sha1
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for adventure-text-serializer-legacy
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for adventure-text-serializer-legacy
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Downloaded adventure-text-serializer-legacy successfully!
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Downloading bstats-bukkit...
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-bukkit
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for bstats-bukkit as https://repo.essentialsx.net/releases/org/bstats/bstats-bukkit/3.0.0/bstats-bukkit-3.0.0.jar.sha1
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for bstats-bukkit
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-bukkit
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Downloaded bstats-bukkit successfully!
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Downloading bstats-base...
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for bstats-base
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for bstats-base as https://repo.essentialsx.net/releases/org/bstats/bstats-base/3.0.0/bstats-base-3.0.0.jar.sha1
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for bstats-base
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for bstats-base
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Downloaded bstats-base successfully!
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Downloading paperlib...
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for paperlib
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for paperlib as https://repo.papermc.io/repository/maven-public/io/papermc/paperlib/1.0.7/paperlib-1.0.7.jar.sha1
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for paperlib
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for paperlib
+[15:29:45] [Server thread/INFO]: [AdvancedTeleport] Downloaded paperlib successfully!
+[15:29:46] [Server thread/INFO]: [AdvancedTeleport] Downloading ConfigurationMaster-API...
+[15:29:46] [Server thread/INFO]: [AdvancedTeleport] Verifying checksum for ConfigurationMaster-API
+[15:29:46] [Server thread/INFO]: [AdvancedTeleport] Resolved checksum URL for ConfigurationMaster-API as https://repo.bsdevelopment.org/releases/com/github/thatsmusic99/ConfigurationMaster-API/v2.0.0-rc.2/ConfigurationMaster-API-v2.0.0-rc.2.jar.sha1
+[15:29:46] [Server thread/INFO]: [AdvancedTeleport] Downloaded checksum for ConfigurationMaster-API
+[15:29:46] [Server thread/INFO]: [AdvancedTeleport] Checksum matched for ConfigurationMaster-API
+[15:29:46] [Server thread/INFO]: [AdvancedTeleport] Downloaded ConfigurationMaster-API successfully!
+[15:29:46] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.4
+[15:29:46] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.8.2
+[15:29:46] [Server thread/INFO]: [HealthBar-Reloaded] Loading server plugin HealthBar-Reloaded v2.0.5-beta
+[15:29:46] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.2.1
+[15:29:46] [Server thread/INFO]: [[38;5;11m⚡[0m] Loading server plugin LagFixer v1.5.0.7 [build 130]
+[15:29:46] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[15:29:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:29:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.17-beta-01+5a4f79c
+[15:29:46] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:29:46] [Server thread/INFO]: WEPIF: Updated config file
+[15:29:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:29:46] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[15:29:48] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[15:29:48] [Server thread/INFO]:         __    
+[15:29:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[15:29:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:29:48] [Server thread/INFO]: 
+[15:29:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:29:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:29:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:29:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1195ms)
+[15:29:49] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.8.2
+[15:29:50] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[15:29:51] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[15:29:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:29:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:29:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:29:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:29:51] [Server thread/INFO]: Preparing level "world"
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.8.2
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: cf773a3
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     A new version (15.9.0) is available! Downloading update...
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 338ms
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[15:29:51] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[15:29:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:29:52] [Server thread/INFO]: Preparing spawn area: 0%
+[15:29:53] [Server thread/INFO]: Preparing spawn area: 2%
+[15:29:53] [Server thread/INFO]: Time elapsed: 926 ms
+[15:29:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:29:53] [Server thread/INFO]: Preparing spawn area: 0%
+[15:29:53] [Server thread/INFO]: Time elapsed: 226 ms
+[15:29:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:29:53] [Server thread/INFO]: Preparing spawn area: 0%
+[15:29:53] [Server thread/INFO]: Time elapsed: 170 ms
+[15:29:53] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.1
+[15:29:53] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[15:29:53] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.3
+[15:29:54] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[15:29:54] [Server thread/INFO]: [Multiverse-Core] Version 5.3.3 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[15:29:54] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[15:29:54] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.5.1
+[15:29:54] [Server thread/INFO]: [AdvancedTeleport] Enabling AdvancedTeleport v6.1.3
+[15:29:54] [Server thread/INFO]: [AdvancedTeleport] Performing server version check.
+[15:29:54] [Server thread/INFO]: [AdvancedTeleport] Detected major version: 21
+[15:29:54] [Server thread/INFO]: [AdvancedTeleport] Advanced Teleport is now enabling...
+[15:29:54] [Server thread/INFO]: [AdvancedTeleport] Setting up permissions integration with Vault.
+[15:29:54] [Server thread/INFO]: [AdvancedTeleport] Vault is not on the server, skipping.
+[15:29:54] [Server thread/INFO]: [AdvancedTeleport] Loading MainConfig.
+[15:29:54] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpa! Error message: net/milkbowl/vault/economy/Economy
+[15:29:54] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpahere! Error message: net/milkbowl/vault/economy/Economy
+[15:29:54] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command tpr! Error message: net/milkbowl/vault/economy/Economy
+[15:29:54] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command spawn! Error message: net/milkbowl/vault/economy/Economy
+[15:29:54] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command warp! Error message: net/milkbowl/vault/economy/Economy
+[15:29:54] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command home! Error message: net/milkbowl/vault/economy/Economy
+[15:29:54] [Server thread/WARN]: [AdvancedTeleport] Failed to parse payment 100.0 for command back! Error message: net/milkbowl/vault/economy/Economy
+[15:29:55] [Server thread/INFO]: [AdvancedTeleport] Registered the image warp_default!
+[15:29:55] [Server thread/INFO]: [AdvancedTeleport] Registered the image home_default!
+[15:29:55] [Server thread/INFO]: [AdvancedTeleport] Registered the image spawn_default!
+[15:29:55] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.4
+[15:29:55] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[15:29:55] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[15:29:55] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[15:29:55] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[15:29:55] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[15:29:55] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[15:29:55] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.4 (Premium: false)
+[15:29:55] [Server thread/INFO]: [HealthBar-Reloaded] Enabling HealthBar-Reloaded v2.0.5-beta
+[15:29:55] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.2.1
+[15:29:56] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[15:29:56] [Server thread/INFO]: [Multiverse-Inventories] Generating player names map... This may take a while.
+[15:29:56] [Server thread/INFO]: [Multiverse-Inventories] Generated player names map.
+[15:29:56] [Server thread/INFO]: [Multiverse-Inventories] Version 5.2.1 (API v5.2) Enabled - By dumptruckman and benwoo1110
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] Enabling LagFixer v1.5.0.7 [build 130]
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
+
+
+
+
+
+LagFixer - Best Performance Solution!
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░██╗░░░░░░█████╗░░██████╗░░░███████╗██╗██╗░░██╗███████╗██████╗░░
+░██║░░░░░██╔══██╗██╔════╝░░░██╔════╝██║╚██╗██╔╝██╔════╝██╔══██╗░
+░██║░░░░░███████║██║░░██╗░░░█████╗░░██║░╚███╔╝░█████╗░░██████╔╝░
+░██║░░░░░██╔══██║██║░░╚██╗░░██╔══╝░░██║░██╔██╗░██╔══╝░░██╔══██╗░
+░███████╗██║░░██║╚██████╔╝░░██║░░░░░██║██╔╝╚██╗███████╗██║░░██║░
+░╚══════╝╚═╝░░╚═╝░╚═════╝░░░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+
+
+
+
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabling manager...
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Started listening console for LagFixer errors!
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Enabled manager in 1ms!
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabling manager...
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Enabled manager in 148ms!
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabling manager...
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded fork support ~ xyz.lychee.lagfixer.support.PaperSupport
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Loaded nms support ~ xyz.lychee.lagfixer.nms.v1_21_R5.SupportNms
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Enabled manager in 14ms!
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabling manager...
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Enabled manager in 0ms!
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabling manager...
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Enabled manager in 2ms!
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabling manager...
+[15:29:56] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Enabled manager in 0ms!
+[15:29:57] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabling manager...
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module RedstoneLimiter in 50ms.
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module InstantLeafDecay in 5ms.
+[15:29:57] [Server thread/WARN]: [[38;5;11m⚡[0m] Unknown "EntityType" enum value: POTION
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module WorldCleaner in 10ms.
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module LagShield in 8ms.
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module ExplosionOptimizer in 8ms.
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module MobAiReducer in 19ms.
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module EntityLimiter in 4ms.
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully loaded module AbilityLimiter in 3ms.
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Enabled manager in 221ms!
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabling manager...
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Enabled manager in 173ms!
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m] Remember to leave a rating! ★ ★ ★ ★ ★
+[15:29:57] [Server thread/INFO]: [[38;5;11m⚡[0m] ❤ Support us https://ko-fi.com/lajczik
+[15:29:57] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[15:29:57] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[15:29:57] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[15:29:57] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[15:29:57] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[15:29:57] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:29:57] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:29:57] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[15:29:57] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[15:29:57] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[15:29:57] [Server thread/INFO]: [Essentials] Done converting random teleport config.
+[15:29:57] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[15:29:58] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[15:29:58] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[15:29:58] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[15:29:58] [Server thread/INFO]: [Essentials] Using locale en
+[15:29:58] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:29:58] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:29:58] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[15:29:58] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[15:29:58] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[15:29:58] [Server thread/INFO]: [spark] Starting background profiler...
+[15:29:59] [Server thread/INFO]: Done preparing level "world" (8.155s)
+[15:29:59] [Server thread/INFO]: Running delayed init tasks
+[15:29:59] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[15:29:59] [Craft Scheduler Thread - 13 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:29:59] [Craft Scheduler Thread - 11 - AdvancedTeleport/INFO]: [AdvancedTeleport] Preparing random teleportation locations. If your server performance or memory suffers, please set `use-rapid-response` to false in the config.yml file.
+[15:29:59] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[15:29:59] [Server thread/INFO]: [Multiverse-Inventories] Created a default group for you containing all of your default worlds: world, world_nether, world_the_end
+[15:29:59] [Server thread/WARN]: java.net.UnknownHostException: api.jeff-media.de
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+[15:29:59] [Server thread/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[15:29:59] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:751)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1253)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1139)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+[15:29:59] [Server thread/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[15:29:59] [Server thread/WARN]: 	at AngelChest-13.9.4.jar//de.jeff_media.angelchest.AngelChestMain$$TA.$$case(UpdateChecker.java:203)
+[15:29:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[15:29:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[15:29:59] [Server thread/WARN]: 	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[15:29:59] [Server thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[15:29:59] [Server thread/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[15:29:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:29:59] [Server thread/WARN]: [AngelChest] Could not check for updates.
+[15:29:59] [Server thread/INFO]: Done (46.472s)! For help, type "help"
+[15:29:59] [Craft Scheduler Thread - 11 - AdvancedTeleport/INFO]: [AdvancedTeleport] Plugin is up to date!
+[15:30:02] [Server thread/INFO]: [AngelChest] ========================================================
+[15:30:02] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[15:30:02] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[15:30:02] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[15:30:02] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[15:30:02] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[15:30:02] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[15:30:02] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[15:30:02] [Server thread/INFO]: [AngelChest] 
+[15:30:02] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[15:30:02] [Server thread/INFO]: [AngelChest] ========================================================
+[15:30:07] [pool-33-thread-1/INFO]: Map color cache not found, building it in the background
+[15:30:24] [Worker-Main-1/INFO]: Map color cache build successfully
+[15:30:36] [User Authenticator #0/INFO]: UUID of player kekotxu is 84d0e8ea-8aa5-3dfb-afb8-3f0c34f10a46
+[15:30:36] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, Essentials]
+[15:30:36] [Server thread/WARN]: [AdvancedTeleport] First-join teleport point  does not exist.
+[15:30:36] [Server thread/INFO]: kekotxu joined the game
+[15:30:36] [Server thread/INFO]: kekotxu[/127.175.64.80:56385] logged in with entity id 48 at ([world]279.5, 64.0, -286.5)
+[15:30:37] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[15:30:47] [Server thread/INFO]: Made kekotxu a server operator
+[15:30:52] [Server thread/INFO]: [kekotxu: Set own game mode to Creative Mode]
+[15:31:08] [Server thread/INFO]: kekotxu lost connection: Disconnected
+[15:31:09] [Server thread/INFO]: kekotxu left the game
+[15:31:16] [Server thread/INFO]: Stopping the server
+[15:31:16] [Server thread/INFO]: Stopping server
+[15:31:16] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] Disabling LagFixer v1.5.0.7 [build 130]
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabling manager...
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (ErrorsManager) -> Disabled manager in 0ms!
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabling manager...
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (ConfigManager) -> Disabled manager in 0ms!
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabling manager...
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (SupportManager) -> Disabled manager in 1ms!
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabling manager...
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (HookManager) -> Disabled manager in 0ms!
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabling manager...
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (MetricsManager) -> Disabled manager in 0ms!
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabling manager...
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (UpdaterManager) -> Disabled manager in 1ms!
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabling manager...
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module RedstoneLimiter in 1ms.
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module InstantLeafDecay in 0ms.
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module WorldCleaner in 0ms.
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module LagShield in 0ms.
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module ExplosionOptimizer in 0ms.
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module MobAiReducer in 0ms.
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module EntityLimiter in 1ms.
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m]  • Successfully disabled module AbilityLimiter in 0ms.
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (ModuleManager) -> Disabled manager in 2ms!
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabling manager...
+[15:31:16] [Server thread/INFO]: [[38;5;11m⚡[0m] (CommandManager) -> Disabled manager in 1ms!
+[15:31:16] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.2.1
+[15:31:16] [Server thread/INFO]: [HealthBar-Reloaded] Disabling HealthBar-Reloaded v2.0.5-beta
+[15:31:16] [Server thread/INFO]: HealthBar disabled: all the health bars have been removed.
+[15:31:16] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.8.2
+[15:31:16] [Server thread/INFO]: [AngelChest] Disabling AngelChest v13.9.4
+[15:31:16] [Server thread/INFO]: [AdvancedTeleport] Disabling AdvancedTeleport v6.1.3
+[15:31:16] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
+[15:31:16] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:31:16] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:31:16] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:31:16] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.5.1
+[15:31:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.17-beta-01+5a4f79c
+[15:31:16] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:31:16] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.3
+[15:31:16] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.5.1
+[15:31:16] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[15:31:16] [Server thread/INFO]: Saving players
+[15:31:16] [Server thread/INFO]: Saving worlds
+[15:31:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:31:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:31:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:31:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Saved 2171 block chunks, 615 entity chunks, 8 poi chunks in world 'world' in 1.81s
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[15:31:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.08s
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[15:31:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:31:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:31:19] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[15:31:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[15:31:19] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[15:31:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:31:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:31:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:31:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:31:19] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[15:31:19] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[15:31:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[15:31:19] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
